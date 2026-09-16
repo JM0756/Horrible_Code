@@ -16,4 +16,8 @@ class calculator:
             raise ValueError("Cannot divide by zero.")
         return a / b
 
+my_calculator = calculator()
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+operation = input("Enter operation (add, subtract, multiply, divide): ")
 
