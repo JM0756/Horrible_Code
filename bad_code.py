@@ -28,3 +28,21 @@ def calculate(a, b, operation):
         result = a
         result = result - b
         print("The answer is:", result)
+
+    elif operation == "multiply":
+        result = 0
+        result = a
+        result = result * b
+        print("The answer is:", result)
+
+    elif operation == "divide":
+        if b == 0:
+            print("You can't divide by zero!")
+        else:
+            result = 0
+            result = a
+            result = result / b
+            print("The answer is:", result)
+
+    else:
+        print("I don't know what you want me to do.")
