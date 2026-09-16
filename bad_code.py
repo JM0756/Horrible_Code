@@ -22,3 +22,9 @@ def calculate(a, b, operation):
         result = a
         result = result + b
         print("The answer is:", result)
+
+    elif operation == "subtract":
+        result = 0
+        result = a
+        result = result - b
+        print("The answer is:", result)
