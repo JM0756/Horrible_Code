@@ -21,3 +21,17 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 operation = input("Enter operation (add, subtract, multiply, divide): ")
 
+match operation:
+   case "add":
+       result = my_calculator.add(num1, num2)
+   case "subtract":
+       result = my_calculator.subtract(num1, num2)
+   case "multiply":
+       result = my_calculator.multiply(num1, num2)
+   case "divide":
+       result = my_calculator.divide(num1, num2)
+   case _:
+       print("Invalid operation.")
+print(f"The result is: {result}")
+
+
